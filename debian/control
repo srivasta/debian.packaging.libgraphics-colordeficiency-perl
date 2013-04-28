@@ -1,0 +1,24 @@
+Source: libgraphics-colordeficiency-perl
+VCS-Git: git://git.debian.org/~srivasta/debian/libgraphics-colordeficiency-perl.git
+VCS-Browser: http://git.debian.org/?p=users/srivasta/debian/libgraphics-colordeficiency-perl.git
+Priority: optional
+Section: perl
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Standards-Version: 3.9.4
+Homepage: http://search.cpan.org/~iamcal/Graphics-ColorDeficiency-0.05/ColorDeficiency.pm
+Build-Depends-Indep: perl-modules, libgraphics-colorobject-perl,
+                     libtest-simple-perl, debhelper (>= 9.0.0)
+
+Package: libgraphics-colordeficiency-perl
+Architecture: all
+Depends: ${misc:Depends}, perl, libgraphics-colorobject-perl, libtest-simple-perl
+Description: Color Deficiency Simulation
+ This module allows easy transformation of colors for color deficiency
+ simulation. All the known and theorhetical color deficiencies are
+ represented here, with the exception of 4-cone vision
+ (tetrachromatism).
+ .
+ Each of the transformation methods returns a Graphics::ColorObject
+ object, with the internal color values set. This can then be used to
+ return the color in many different formats (see the
+ Graphics::ColorObject manpage).

@@ -1,0 +1,49 @@
+libgraphics-colordeficiency-perl (0.05-7) unstable; urgency=low
+
+  * Migrated to a new, dh based packaging schema
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sun, 28 Apr 2013 04:20:32 -0700
+
+libgraphics-colordeficiency-perl (0.05-6) unstable; urgency=low
+
+  *
+  * [50b16fc]: [libgraphics-colordeficiency-perl]: PREFIX is no longer
+    mutable, use DESTDIR. Preemptive bug fix.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sun, 13 Sep 2009 18:12:53 -0500
+
+libgraphics-colordeficiency-perl (0.05-5) unstable; urgency=low
+
+  * Updated the location of the development repository for this package
+    (moved to a public git repository)
+
+ -- Manoj Srivastava <srivasta@debian.org>  Thu, 29 May 2008 22:42:06 -0500
+
+libgraphics-colordeficiency-perl (0.05-4) unstable; urgency=low
+
+  * Bug fix: "libgraphics-colordeficiency-perl: FTBFS with Perl 5.10: the
+    empty /usr/lib/perl5 is gone", thanks to Niko Tyni.  Actually, it is
+    /usr/lib, not the perl5, that went away.               Closes: #467948
+
+ -- Manoj Srivastava <srivasta@debian.org>  Tue, 18 Mar 2008 17:33:13 -0500
+
+libgraphics-colordeficiency-perl (0.05-3) unstable; urgency=low
+
+  * Add watch file.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sat, 31 Dec 2005 19:37:13 -0600
+
+libgraphics-colordeficiency-perl (0.05-2) unstable; urgency=low
+
+  * Bug fix: "wrong depends (typo)", thanks to Martin Michlmayr
+                                                       (Closes:  #252126).
+
+ -- Manoj Srivastava <srivasta@debian.org>  Tue, 22 Jun 2004 19:10:29 -0500
+
+libgraphics-colordeficiency-perl (0.05-1) unstable; urgency=low
+
+  * New package, initial packaging for Debian.
+  * Please note, 18/20 tests failed for this module, so this is still very
+    very experimental.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sat, 24 Apr 2004 21:32:55 -0500
